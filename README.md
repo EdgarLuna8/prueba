@@ -59,3 +59,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+#Instalar la prueba
+
+1 - Descarga el proyecto desde tu git bash o destkop 
+gh repo clone EdgarLuna8/prueba
+
+
+2. Instala NPM con la siguiente linea:
+npm i o npm install
+
+3. Instala composer
+composer i o composer install
+
+4. Crea una base de datos y en el .env dale el nombre donde te lo solicita. 
+###Recuerda cambiar los .env para tu local. 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=prueba-landing
+DB_USERNAME=root
+DB_PASSWORD=
